@@ -6,13 +6,13 @@
         "outDir": "./dist",
         "strict": true,
         "esModuleInterop": true,
+        "skipLibCheck": true,
         "lib": [
             "ES2019",
             "DOM" /* dirty hack, otherwise typescript doesn't find URL */
         ],
         "rootDir": "src",
-        "resolveJsonModule": true,
-        "skipLibCheck": true
+        "resolveJsonModule": true
     },
     "include": ["src", "index.d.ts"],
     "exclude": ["node_modules", "tests", "example"]
